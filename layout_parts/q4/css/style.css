@@ -4,49 +4,42 @@
 .q4wrappu{
   padding: 20px;
 }
-.q4-content-top{
-  display: table;
-  width: 100%;
-  text-align: center;
-}
-.q4-pk{
-  display: table-cell;
-  width: 100px;
-  background: #fbc8b8;
-  padding: 20px;
-}
-.q4-pp{
-  display: table-cell;
-  background: #e0abd9;
-  padding: 20px;
-}
-.q4-sb{
-  display: table-cell;
-  width: 100px;
-  background: #b6d8ed;
-  padding: 20px;
-}
-.q4-content-bottom{
+.q4-boxber{
   display: table;
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
-.q4-yl{
+.q4-boxber:first-child{
+  margin-top: 0;
+}
+
+.q4-tabble{
   display: table-cell;
+  padding: 20px;
+}
+
+
+.q4-pink{
+  width: 100px;
+  background: #fbc8b8;
+}
+.q4-purple{
+  background: #e0abd9;
+}
+.q4-skybule{
+  width: 100px;
+  background: #b6d8ed;
+}
+.q4-yellow{
   background: #e5d352;
-  padding: 20px;
 }
-.q4-rd{
-  display: table-cell;
+.q4-red{
   background: #ec8f9a;
-  padding: 20px;
 }
-.q4-gl{
-  display: table-cell;
+.q4-green{
   background: #8fdcad;
   width: 500px;
-  padding: 20px;
 }
 
 /* 回答はここに書いてね */

@@ -1,16 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7-float-left{
+.q7-float{
   width: 225px;
   float: left;
   box-sizing: border-box;
 }
+
 .q7-float-right{
-  float: left;
-  width: 225px;
   margin-left: 50px;
-  box-sizing: border-box;
 }
 .clearfix:before,
 .clearfix:after{
@@ -21,24 +19,19 @@
 .q7-table-content{
   display: table;
 }
-
-.q7table-left{
+.q7table{
   display: table-cell;
   width: 225px;
   vertical-align: middle;
-
 }
 .q7table-right{
-  display: table-cell;
-  width: 225px;
-  vertical-align: middle;
   padding-left:50px;
 }
 .q7-inline-content{
   font-size: 0;
 }
 
-.q7-inline-left{
+.q7-inline{
   vertical-align: middle;
   display: inline-block;
   width: 225px;
@@ -46,12 +39,7 @@
   font-size: 16px; 
 }
 .q7-inline-right{
-  vertical-align: middle;
-  display: inline-block;
-  width: 225px;
-  box-sizing: border-box;
   margin-left:50px;
-  font-size: 16px;
 }
 
 .q7-flex-content{
@@ -59,35 +47,29 @@
   justify-content: space-around;
   align-items: flex-end;
 }
-.q7-flex-left{
+
+.q7-flex{
   flex-direction: row;
   width: 225px;
   vertical-align: middle;
   box-sizing: border-box;
-}
-.q7-flex-right{
-  flex-direction: row;
-  width: 225px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  
 }
 .q7-lastcontent{
   font-size: 0;
   width: 100%;
 }
-.q7-last-left{
+.last{
   font-size: 16px;
   display: inline-block;
+}
+.q7-last-left{
   width: 300px;
   vertical-align:top;
 }
 .q7-last-right{
-  font-size: 16px;
-  display:inline-block;
   width: 100%;
   margin-left:-300px;
   padding-left:350px;
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
 /* 回答はここに書いてね */

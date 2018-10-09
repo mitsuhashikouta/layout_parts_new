@@ -7,35 +7,39 @@
   display: block;
   clear: both;
 }
+.test{
+
+}
+
 .q8-small > div{
-  cursor: pointer;
-  margin: 5px;
+  display: inline-block;
   font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
   border-radius: 3px;
   padding: 0px 15px;
   height: 26px;
   line-height: 26px;
-  display: inline-block;
 }
 .q8-middle > div{
-  cursor: pointer;
-  margin: 5px;
+  display: inline-block;
+  margin-left: 10px;
   font-size:20px;
   border-radius: 5px;
   padding: 0px 20px;
   height: 32px;
-  display: inline-block;
   line-height: 32px;
+  cursor: pointer;
 }
 .q8-large > div{
-  cursor: pointer;
-  margin: 5px;
+  display: inline-block;
+  margin-left: 10px;
   font-size: 24px;
   border-radius: 7px;
   padding: 0px 25px;
   height: 38px;
   line-height: 38px;
-  display: inline-block;
+  cursor: pointer;
 }
 
 .com{
@@ -59,9 +63,11 @@
 
 
 
-.q8-content {
+
+
+.q8-form {
   width: 700px;
-  margin: auto 0;
+  margin: 0 auto;
   padding: 20px;
   background: #ecf1f2;
 }
@@ -114,8 +120,6 @@ margin-top: 0;
 .is-asutarisuku{
   color: #f00;
 }
-
-
 .q8-nyuuryoku-sononaka{
   padding: 0;
   background: none;
@@ -135,6 +139,9 @@ margin-top: 0;
   font-size: 12px;
   line-height: 12px;
   box-sizing: border-box;
+}
+.q8-nyuuryoku:focus{
+  box-shadow:0 0 10px #00bcd4;
 }
 .q8-seibex{
   cursor: pointer;
@@ -196,7 +203,7 @@ margin-top: 0;
   box-sizing: border-box;
   cursor: pointer;
 }
-option{
+.option{
   font-weight: normal;
   display: block;
   white-space: pre;
@@ -246,7 +253,11 @@ option{
   color: #fff;
   font-size: 16px;
   line-height: 26px;
-
+  cursor: pointer;
+}
+.q8-sousin-btn:active {
+  background: #fff;
+  color: #00bcd4;
 }
 .q8-hukudai{
   float: right;

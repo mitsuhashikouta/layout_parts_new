@@ -29,7 +29,7 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
-          <div class="q8 q8--btn q8-small">
+          <div class="q8 q8--btn q8-small test">
             <p class="q8__title">ー small ー</p>
             <div class="com">common</div>
             <div class="err">error</div>
@@ -37,7 +37,7 @@
             <div class="sha">shadow</div>
           </div>
 
-          <div class="q8 q8--btn q8-middle">
+          <div class="q8 q8--btn q8-middle test">
             <p class="q8__title">ー middle ー</p>
             <div class="com">common</div>
             <div class="err">error</div>
@@ -45,7 +45,7 @@
             <div class="sha">shadow</div>
           </div>
 
-          <div class="q8 q8--btn q8-large">
+          <div class="q8 q8--btn q8-large test">
             <p class="q8__title">ー large ー</p>
             <div class="com">common</div>
             <div class="err">error</div>
@@ -97,83 +97,78 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            <form class="q8-content"> 
+          <div class="q8 ">
+            <form class="q8-form">
               <div class="q8-title-text">
                 <p class="q8-title-text-daimei">Form Exercise</p>
               </div>
-                <div class="clearfix">
-                  <div class="q8-hondai">
-                    <ul class="q8-hondai-koumoku">
-                      <li class="clearfix">
-                        <p class="q8-hondai-koumoku-daimei">
-                          名前<span class="is-asutarisuku">*</span>
-                        </p>
-                        <div class="q8-hondai-koumoku-naiyou">
-                          <input class="q8-nyuuryoku q8-nyuuryoku-sononaka" type="text"name="name"required>
+              <div class="clearfix">
+                <div class="q8-hondai">
+                  <ul class="q8-hondai-koumoku">
+                    <li class="clearfix">
+                      <p class="q8-hondai-koumoku-daimei">名前<span class="is-asutarisuku">*</span></p>
+                      <div class="q8-hondai-koumoku-naiyou">
+                        <input class="q8-nyuuryoku q8-nyuuryoku-sononaka" type="text"name="name"required>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="q8-hondai-koumoku-daimei">性別</p>
+                      <div class="q8-hondai-koumoku-naiyou">
+                        <label class="q8-seibex" for="dansei">
+                          <input class="q8-seibex-btn q8-nyuuryoku-sononaka"type="radio"name="sex"id="dansei"value="male">
+                        <span class="q8-seibetu-btn">男性</span>
+                        </label>
+                        <label class="q8-seibex" for="jyosei">
+                          <input class="q8-seibex-btn q8-nyuuryoku-sononaka"type="radio"name="sex"id="jyosei"value="female">
+                          <span class="q8-seibetu-btn">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="q8-hondai-koumoku-daimei">出身</p>
+                      <div class="q8-hondai-koumoku-naiyou q8-erabu">
+                        <select name="from"class="q8-erabu-nakami q8-nyuuryoku-sononaka">
+                          <option value="tokyo">東京</option>
+                          <option value="saitama">埼玉</option>
+                          <option value="tiba">千葉</option>
+                          <option value="kanagawa">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="q8-hondai-koumoku-daimei">Eメール<span class="is-asutarisuku">*</span></p>
+                      <div class="q8-hondai-koumoku-naiyou">
+                        <input class="q8-nyuuryoku q8-nyuuryoku-sononaka"type="email"placeholder="ex) hoge@gmail.com"name="email"required >
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <p class="q8-hondai-koumoku-daimei">電話番号
+                      </p>
+                      <div class="q8-hondai-koumoku-naiyou">
+                        <input class="q8-nyuuryoku q8-nyuuryoku-sononaka"type="text"name="tel"placeholder="ex) 08012345678">
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="q8-hondai-koumoku-naiyou">
+                        <div class="q8-kakuninnbox">
+                          <input class="q8-kakuninnbox-btn q8-nyuuryoku-sononaka" type="checkbox"id="q8-kakuninnbox"name="hatati">
+                            <label for="q8-kakuninnbox"class="q8-kakuninnbox-bun">20歳以上です
+                            </label>
                         </div>
-                      </li>
-                      <li class="clearfix">
-                        <p class="q8-hondai-koumoku-daimei">
-                          性別</p>
-                          <div class="q8-hondai-koumoku-naiyou">
-                            <label class="q8-seibex" for="dansei">
-                            <input class="q8-seibex-btn q8-nyuuryoku-sononaka"type="radio"name="sex"id="dansei"value="male">
-                            <span class="q8-seibetu-btn">男性</span>
-                            </label>
-                            <label class="q8-seibex" for="jyosei">
-                            <input class="q8-seibex-btn q8-nyuuryoku-sononaka"type="radio"name="sex"id="jyosei"value="female">
-                            <span class="q8-seibetu-btn">女性</span>
-                            </label>
-                          </div>
-                      </li>
-                      <li class="clearfix">
-                        <p class="q8-hondai-koumoku-daimei">
-                          出身</p>
-                            <div class="q8-hondai-koumoku-naiyou q8-erabu">
-                              <select name="from"class="q8-erabu-nakami q8-nyuuryoku-sononaka">
-                                <option value="tokyo">東京</option>
-                                <option value="saitama">埼玉</option>
-                                <option value="tiba">千葉</option>
-                                <option value="kanagawa">神奈川</option>
-                              </select>
-                            </div>
-                      </li>
-                      <li class="clearfix">
-                        <p class="q8-hondai-koumoku-daimei">
-                          Eメール
-                          <span class="is-asutarisuku">*</span>
-                        </p>
-                            <div class="q8-hondai-koumoku-naiyou">
-                              <input class="q8-nyuuryoku q8-nyuuryoku-sononaka"type="email"placeholder="ex)hoge@gmail.com"name="email"required >
-                            </div>
-                      </li>
-                      <li class="clearfix">
-                        <p class="q8-hondai-koumoku-daimei">
-                          電話番号</p>
-                            <div class="q8-hondai-koumoku-naiyou">
-                              <input class="q8-nyuuryoku q8-nyuuryoku-sononaka"type="text"name="tel"placeholder="ex)08012345678">
-                            </div>
-                          </li>
-                          <li class="clearfix">
-                            <div class="q8-hondai-koumoku-naiyou">
-                              <div class="q8-kakuninnbox">
-                              <input class="q8-kakuninnbox-btn q8-nyuuryoku-sononaka" type="checkbox"id="q8-kakuninnbox"name="hatati">
-                              <label for="q8-kakuninnbox"class="q8-kakuninnbox-bun">20歳以上です
-                            </label>
-                              </div>
-                            </div>
-                          </li>
-                    </ul>
-                    <div class="q8-hondai-bottom">
-                      <button class="q8-sousin-btn q8-nyuuryoku-sononaka"type="submit">送信</button>
-                    </div>
-                  </div>
-                  <div class="q8-hukudai">
-                    <textarea class="q8-nanika q8-nyuuryoku q8-nyuuryoku-sononaka" name="nanika" placeholder="何かあれば入力して下さい"></textarea>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="q8-hondai-bottom">
+                    <button class="q8-sousin-btn q8-nyuuryoku-sononaka"type="submit">
+                    送信</button>
                   </div>
                 </div>
+                <div class="q8-hukudai">
+                  <textarea class="q8-nanika q8-nyuuryoku q8-nyuuryoku-sononaka" name="nanika" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
             </form>
+          </div>
           <!-- 回答はここに書いてね -->
         </div>
       </div>

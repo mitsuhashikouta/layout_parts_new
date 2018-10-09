@@ -4,7 +4,7 @@
 .q3-content{
   width: 100%;
   border:1px solid #dedede;
-  table-layout: fixed;;
+  table-layout: fixed;
 }
 
 .q3-content th{
@@ -26,7 +26,7 @@
 
 }
 
-.q3-content tr:nth-child(even){
+.q3-content tr:nth-child(2n){
   background: #ECF1F2;
 }
 

@@ -7,17 +7,17 @@
   margin: 0 auto;
   padding: 20px;
 }
-
-.q2-imag-top{
-  float: left;
+.q2-picture{
   margin-right:20px;
   margin-bottom:10px;
+  
+}
+.q2-img-leftballoon{
+  float: left;
 }
 
-.q2-imag-bottom{
+.q2-img-rightcolorful{
   float:right;
-  margin-left: 20px;
-  margin-bottom: 10px;
 }
 
 .q2-content-text{

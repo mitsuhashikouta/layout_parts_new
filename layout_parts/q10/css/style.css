@@ -14,26 +14,21 @@
 }
 .q10-hukidasi:before{
   position: absolute;
-  bottom: -17px;
+  bottom: -19px;
   left:40px;
-  width: 20px;
-  height: 20px;
-  border: solid transparent;
-  border-bottom: solid 5px #000;
-  border-right: solid 5px #000;
+  width: 27px;
+  height: 27px;
+  background: #000;
   transform: rotate(45deg);
   content: "";
 }
 .q10-hukidasi:after{
   position: absolute;
-  bottom: -9px;
+  bottom: -10px;
   left: 40px;
-  width: 20px;
-  height: 20px;
+  width: 27px;
+  height: 26px;
   background: #fff;
-  border: transparent;
-  border-right: solid 7px #fff;
-  border-bottom: solid 5px #fff;
   transform: rotate(45deg);
   content: "";
   }
