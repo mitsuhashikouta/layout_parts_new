@@ -7,56 +7,44 @@
   display: block;
   clear: both;
 }
-.test{
-
-}
-
-.q8-small > div{
+.q8-side{
   display: inline-block;
-  font-size: 16px;
-  margin-left: 10px;
   cursor: pointer;
+  margin-left: 10px;
+  
+}
+.q8-small {
+  font-size: 16px;
   border-radius: 3px;
   padding: 0px 15px;
-  height: 26px;
   line-height: 26px;
 }
-.q8-middle > div{
-  display: inline-block;
-  margin-left: 10px;
+.q8-middle {
   font-size:20px;
   border-radius: 5px;
   padding: 0px 20px;
-  height: 32px;
   line-height: 32px;
-  cursor: pointer;
 }
-.q8-large > div{
-  display: inline-block;
-  margin-left: 10px;
+.q8-large {
   font-size: 24px;
   border-radius: 7px;
   padding: 0px 25px;
-  height: 38px;
   line-height: 38px;
-  cursor: pointer;
 }
-
-.com{
+.common{
   background: #00bcd4;
-    color: #fff;
+  color: #fff;
 }
-.err{
+.error{
   background: #ff4081;
   color: #fff;
-
 }
-.q8 > .dis{
+.disabled{
   cursor:default; 
   color: #fff;
   background: #e5e5e5;
 }
-.sha{
+.shadow{
   color: #222;
   box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);
 }
